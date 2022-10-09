@@ -1,0 +1,32 @@
+
+.blackLine {
+    height: 60px;
+    background-color: #161616;
+}
+
+.whiteLine {
+    height: 60px;
+    background-color: #fff;
+}
+
+.wrapperHeader {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+    @media(max-width: 1170px) {
+        margin: 0 60px;
+    }
+
+    @media(max-width: 768px) {
+        margin: 0 32px;
+    }
+
+    @media(max-width: 360px) {
+        margin: 0 16px;
+    }
+}
+
+.wrapperlogo {
+    margin: 17px 0 0 0;
+}
