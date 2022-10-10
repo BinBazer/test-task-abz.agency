@@ -6,12 +6,15 @@ import logo from '../../img/Logo.svg'
 const Header = () => {
     return (
         <header>
-            <div class={style.blackLine}></div>
-            <div class={style.whiteLine}>
-                <div class={style.wrapperHeader}>
+            <div className={style.blackLine}></div>
+            <div className={style.whiteLine}>
+                <div className={style.wrapperHeader}>
 
-                    <div class={style.wrapperLogo}>
-                        <img src={logo} alt="fox it is logo for this company" />
+                    <div className={style.wrapperLogo}>
+                        <img
+                            src={logo}
+                            alt="fox it is logo for this company"
+                        />
                     </div>
                     <NavBar />                    
                 </div>

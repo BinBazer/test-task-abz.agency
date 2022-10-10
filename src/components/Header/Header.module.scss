@@ -14,19 +14,19 @@
     justify-content: space-between;
     max-width: 1170px;
     margin: 0 auto;
-    @media(max-width: 1170px) {
-        margin: 0 60px;
+    @media(max-width: 1290px) {
+        padding: 0 60px;
     }
 
     @media(max-width: 768px) {
-        margin: 0 32px;
+        padding: 0 32px;
     }
 
-    @media(max-width: 360px) {
-        margin: 0 16px;
+    @media(max-width: 390px) {
+        padding: 0 16px;
     }
 }
 
-.wrapperlogo {
-    margin: 17px 0 0 0;
+.wrapperLogo {
+    margin:17px 0 0 0;
 }

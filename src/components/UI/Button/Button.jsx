@@ -3,6 +3,7 @@ import mod from './Button.module.scss';
 
 const Button = ({ text, visible }) => {
     const style = visible ? mod.notActiveButton : mod.activeButton;
+
     return (
         <button
             className={style}
